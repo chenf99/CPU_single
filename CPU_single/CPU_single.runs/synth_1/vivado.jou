@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue May 22 00:15:07 2018
+# Process ID: 8768
+# Log file: D:/Vivado_Data/CPU_single/CPU_single.runs/synth_1/CPU_single.vds
+# Journal file: D:/Vivado_Data/CPU_single/CPU_single.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU_single.tcl

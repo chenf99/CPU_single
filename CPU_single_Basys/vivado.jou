@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu May 24 11:24:14 2018
+# Process ID: 5048
+# Log file: D:/Vivado_Data/CPU_single_Basys/vivado.log
+# Journal file: D:/Vivado_Data/CPU_single_Basys\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Vivado_Data\CPU_single_Basys\CPU_single.xpr}
+update_compile_order -fileset sources_1
+close [ open D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/Counter4.v w ]
+add_files D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/Counter4.v
+update_compile_order -fileset sources_1
+close [ open D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/CLOCK_DIV.v w ]
+add_files D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/CLOCK_DIV.v
+update_compile_order -fileset sources_1
+close [ open D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/Display_seg.v w ]
+add_files D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/Display_seg.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+open_run synth_1 -name netlist_1
+set_property iostandard LVCMOS18 [get_ports [list {PCAddress[31]} {PCAddress[30]} {PCAddress[29]} {PCAddress[28]} {PCAddress[27]} {PCAddress[26]} {PCAddress[25]} {PCAddress[24]} {PCAddress[23]} {PCAddress[22]} {PCAddress[21]} {PCAddress[20]} {PCAddress[19]} {PCAddress[18]} {PCAddress[17]} {PCAddress[16]} {PCAddress[15]} {PCAddress[14]} {PCAddress[13]} {PCAddress[12]} {PCAddress[11]} {PCAddress[10]} {PCAddress[9]} {PCAddress[8]} {PCAddress[7]} {PCAddress[6]} {PCAddress[5]} {PCAddress[4]} {PCAddress[3]} {PCAddress[2]} {PCAddress[1]} {PCAddress[0]}]]
+launch_xsim -simset sim_1 -mode behavioral
+launch_xsim -simset sim_1 -mode behavioral
+close_sim
+close [ open D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/Show.v w ]
+add_files D:/Vivado_Data/CPU_single_Basys/CPU_single.srcs/sources_1/new/Show.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu May 24 11:16:08 2018
+# Process ID: 13880
+# Log file: D:/Vivado_Data/CPU_single/vivado.log
+# Journal file: D:/Vivado_Data/CPU_single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Vivado_Data\CPU_single\CPU_single.xpr}
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+close_sim
+launch_runs impl_1
+wait_on_run impl_1

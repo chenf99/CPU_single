@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu May 24 11:16:08 2018
+# Process ID: 13880
+# Log file: D:/Vivado_Data/CPU_single/vivado.log
+# Journal file: D:/Vivado_Data/CPU_single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Vivado_Data\CPU_single\CPU_single.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/SignZeroExtend.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/ROM.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/RegFile.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/RAM.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/PC.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer5.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer32ForB.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer32For4.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer32For2.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/ControlUnit.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/ALU.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/CPU_single.v]
+update_compile_order -fileset sources_1
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_single_sim_behav --prj D:/Vivado_Data/CPU_single/CPU_single.sim/sim_1/behav/CPU_single_sim.prj   xil_defaultlib.CPU_single_sim   xil_defaultlib.glbl"
+Vivado Simulator 2014.2
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2014.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_single_sim_behav --prj D:/Vivado_Data/CPU_single/CPU_single.sim/sim_1/behav/CPU_single_sim.prj xil_defaultlib.CPU_single_sim xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrucionMemory
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer5
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer32ForB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer32ForB
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer32For4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer32For4
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer32For2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplexer32ForA
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sources_1/new/CPU_single.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_single
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado_Data/CPU_single/CPU_single.srcs/sim_1/new/CPU_single_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_single_sim
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Vivado/2014.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstrucionMemory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.Multiplexer5
+Compiling module xil_defaultlib.Multiplexer32ForA
+Compiling module xil_defaultlib.Multiplexer32ForB
+Compiling module xil_defaultlib.Multiplexer32For4
+Compiling module xil_defaultlib.CPU_single
+Compiling module xil_defaultlib.CPU_single_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_single_sim_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "CPU_single_sim_behav -key {Behavioral:sim_1:Functional:CPU_single_sim} -tclbatch {CPU_single_sim.tcl} -view {D:/Vivado_Data/CPU_single/CPU_single_sim_behav.wcfg} -view {D:/Vivado_Data/CPU_single/CPU_single_sim_behav.wcfg} -view {D:/Vivado_Data/CPU_single/CPU_single_sim_behav.wcfg} -log {CPU_single_sim_behav.log}"
+Vivado Simulator 2014.2
+Time resolution is 1 ps
+ERROR: [Wavedata 42-52] WCFG file 'D:/Vivado_Data/CPU_single/CPU_single_sim_behav.wcfg' is already open.
+ERROR: [Wavedata 42-52] WCFG file 'D:/Vivado_Data/CPU_single/CPU_single_sim_behav.wcfg' is already open.
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:28 . Memory (MB): peak = 854.926 ; gain = 8.281
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'CPU_single_sim_behav' loaded.
+INFO: [Vivado 12-3703] XSim simulation ran for 1000ns
+launch_xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:31 . Memory (MB): peak = 854.926 ; gain = 15.160
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs impl_1
+[Thu May 24 11:21:16 2018] Launched impl_1...
+Run output will be captured here: D:/Vivado_Data/CPU_single/CPU_single.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 24 11:23:43 2018...
